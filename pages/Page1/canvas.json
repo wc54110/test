@@ -435,6 +435,7 @@
               "overflow": "NONE",
               "fontFamily": "{{keyu.theme.fontFamily.appFont}}",
               "parentColumnSpace": 16.0625,
+              "dynamicTriggerPathList": [],
               "leftColumn": 18,
               "dynamicBindingPathList": [
                 {
@@ -446,7 +447,7 @@
               ],
               "shouldTruncate": false,
               "truncateButtonColor": "#FFC13D",
-              "text": "示例文本",
+              "text": "示例文本123",
               "gridConfig": {
                 "containerGridPadding": 6,
                 "widgetPadding": 4
@@ -471,6 +472,53 @@
               "fontSize": "1rem",
               "treeIconSVG": "/bty/oss_static/static/media/icon-tree.f3a5a1754c5aa9185ecb97a1cb5f6ceb.svg",
               "minDynamicHeight": 4
+            },
+            {
+              "boxShadow": "none",
+              "widgetName": "Image1",
+              "displayName": "图片",
+              "iconSVG": "/bty/oss_static/static/media/icon.22cf96bde29a62c20ac156b8dac75b67.svg",
+              "searchTags": [
+                "image"
+              ],
+              "topRow": 24,
+              "bottomRow": 36,
+              "parentRowSpace": 10,
+              "floatZIndex": 6,
+              "type": "IMAGE_WIDGET",
+              "hideCard": false,
+              "animateLoading": true,
+              "parentColumnSpace": 16.0625,
+              "imageShape": "RECTANGLE",
+              "leftColumn": 5,
+              "dynamicBindingPathList": [
+                {
+                  "key": "borderRadius"
+                }
+              ],
+              "gridConfig": {
+                "containerGridPadding": 6,
+                "widgetPadding": 4
+              },
+              "defaultImage": "https://resource.bantouyan.com/keyu/default.png",
+              "key": "o71i3kqvgm",
+              "image": "",
+              "isDeprecated": false,
+              "rightColumn": 17,
+              "objectFit": "contain",
+              "widgetId": "rq4dz7jbpb",
+              "isFloat": false,
+              "isVisible": true,
+              "version": 1,
+              "parentId": "0",
+              "renderMode": "CANVAS",
+              "isLoading": false,
+              "maxZoomLevel": 1,
+              "enableDownload": false,
+              "borderRadius": "{{keyu.theme.borderRadius.appBorderRadius}}",
+              "widgetCategory": "BASE",
+              "enableRotation": false,
+              "treeIconSVG": "/bty/oss_static/static/media/icon-tree.f2cb7ff56efe852199dc8fc3f11f6ed2.svg"
             }
           ]
         },
