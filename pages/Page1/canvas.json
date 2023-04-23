@@ -414,6 +414,63 @@
               "widgetCategory": "LAYOUT",
               "treeIconSVG": "/bty/oss_static/static/media/icon-tree.7f15c290441b68051062ac336f6f42f0.svg",
               "minDynamicHeight": 4
+            },
+            {
+              "widgetName": "Text1",
+              "displayName": "文本",
+              "iconSVG": "/bty/oss_static/static/media/icon.b4d76cb5a7f363bdb65fc6af739d9da7.svg",
+              "searchTags": [
+                "typography",
+                "paragraph",
+                "label",
+                "text"
+              ],
+              "topRow": 8,
+              "bottomRow": 12,
+              "parentRowSpace": 10,
+              "floatZIndex": 6,
+              "type": "TEXT_WIDGET",
+              "hideCard": false,
+              "animateLoading": true,
+              "overflow": "NONE",
+              "fontFamily": "{{keyu.theme.fontFamily.appFont}}",
+              "parentColumnSpace": 16.0625,
+              "leftColumn": 18,
+              "dynamicBindingPathList": [
+                {
+                  "key": "fontFamily"
+                },
+                {
+                  "key": "borderRadius"
+                }
+              ],
+              "shouldTruncate": false,
+              "truncateButtonColor": "#FFC13D",
+              "text": "示例文本",
+              "gridConfig": {
+                "containerGridPadding": 6,
+                "widgetPadding": 4
+              },
+              "key": "tlvttn3xl8",
+              "isDeprecated": false,
+              "rightColumn": 34,
+              "textAlign": "LEFT",
+              "dynamicHeight": "FIXED",
+              "widgetId": "ihuj1ufev4",
+              "isFloat": false,
+              "isVisible": true,
+              "fontStyle": "BOLD",
+              "textColor": "#231F20",
+              "version": 1,
+              "parentId": "0",
+              "renderMode": "CANVAS",
+              "isLoading": false,
+              "borderRadius": "{{keyu.theme.borderRadius.appBorderRadius}}",
+              "maxDynamicHeight": 9000,
+              "widgetCategory": "BASE",
+              "fontSize": "1rem",
+              "treeIconSVG": "/bty/oss_static/static/media/icon-tree.f3a5a1754c5aa9185ecb97a1cb5f6ceb.svg",
+              "minDynamicHeight": 4
             }
           ]
         },
