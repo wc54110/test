@@ -5,6 +5,14 @@
     {
       "id": "Page1",
       "isDefault": true
+    },
+    {
+      "id": "添加合同记录",
+      "isDefault": false
+    },
+    {
+      "id": "上传组件",
+      "isDefault": false
     }
   ],
   "viewMode": false,

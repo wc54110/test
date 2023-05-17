@@ -1,0 +1,1277 @@
+{
+  "unpublishedPage": {
+    "name": "添加合同记录",
+    "slug": "",
+    "layouts": [
+      {
+        "viewMode": false,
+        "dsl": {
+          "widgetName": "MainContainer",
+          "backgroundColor": "none",
+          "rightColumn": 1224,
+          "snapColumns": 64,
+          "detachFromLayout": true,
+          "widgetId": "0",
+          "topRow": 0,
+          "bottomRow": 780,
+          "containerStyle": "none",
+          "snapRows": 78,
+          "parentRowSpace": 1,
+          "type": "CANVAS_WIDGET",
+          "canExtend": true,
+          "version": 60,
+          "minHeight": 790,
+          "parentColumnSpace": 1,
+          "dynamicBindingPathList": [],
+          "leftColumn": 0,
+          "children": [
+            {
+              "boxShadow": "none",
+              "widgetName": "Modal1",
+              "isCanvas": true,
+              "displayName": "弹窗",
+              "iconSVG": "/oss_static/static/media/icon.47e2e1a3106de85eb2fcd037583f08ab.svg",
+              "searchTags": [
+                "dialog",
+                "popup",
+                "notification",
+                "modal"
+              ],
+              "topRow": 49,
+              "bottomRow": 73,
+              "parentRowSpace": 10,
+              "type": "MODAL_WIDGET",
+              "hideCard": false,
+              "shouldScrollContents": false,
+              "animateLoading": true,
+              "parentColumnSpace": 17.11962890625,
+              "dynamicTriggerPathList": [],
+              "leftColumn": 20,
+              "dynamicBindingPathList": [
+                {
+                  "key": "borderRadius"
+                }
+              ],
+              "children": [
+                {
+                  "boxShadow": "none",
+                  "widgetName": "Canvas9Copy3",
+                  "displayName": "Canvas",
+                  "topRow": 0,
+                  "bottomRow": 170,
+                  "parentRowSpace": 1,
+                  "type": "CANVAS_WIDGET",
+                  "canExtend": true,
+                  "hideCard": true,
+                  "shouldScrollContents": false,
+                  "minHeight": 178,
+                  "parentColumnSpace": 1,
+                  "dynamicTriggerPathList": [],
+                  "leftColumn": 0,
+                  "dynamicBindingPathList": [
+                    {
+                      "key": "borderRadius"
+                    },
+                    {
+                      "key": "accentColor"
+                    }
+                  ],
+                  "children": [
+                    {
+                      "widgetName": "Text6Copy",
+                      "dynamicPropertyPathList": [
+                        {
+                          "key": "fontSize"
+                        }
+                      ],
+                      "displayName": "文本",
+                      "iconSVG": "/oss_static/static/media/icon.62f720b3756e1a738b3b9a254761748f.svg",
+                      "searchTags": [
+                        "typography",
+                        "paragraph",
+                        "label",
+                        "text"
+                      ],
+                      "topRow": 2,
+                      "bottomRow": 6,
+                      "type": "TEXT_WIDGET",
+                      "hideCard": false,
+                      "animateLoading": true,
+                      "overflow": "NONE",
+                      "fontFamily": "{{keyu.theme.fontFamily.appFont}}",
+                      "dynamicTriggerPathList": [],
+                      "leftColumn": 10,
+                      "dynamicBindingPathList": [
+                        {
+                          "key": "fontFamily"
+                        },
+                        {
+                          "key": "borderRadius"
+                        }
+                      ],
+                      "shouldTruncate": false,
+                      "truncateButtonColor": "#FFC13D",
+                      "text": "有数据尚未保存，确定返回吗？",
+                      "gridConfig": {
+                        "containerGridPadding": 0,
+                        "widgetPadding": 0
+                      },
+                      "key": "m1rj9td52b",
+                      "isDeprecated": false,
+                      "rightColumn": 63,
+                      "textAlign": "LEFT",
+                      "dynamicHeight": "FIXED",
+                      "widgetId": "28pax3clas",
+                      "isVisible": true,
+                      "fontStyle": "BOLD",
+                      "textColor": "#231F20",
+                      "version": 1,
+                      "parentId": "459v8bod06",
+                      "renderMode": "CANVAS",
+                      "isLoading": false,
+                      "borderRadius": "{{keyu.theme.borderRadius.appBorderRadius}}",
+                      "maxDynamicHeight": 9000,
+                      "widgetCategory": "BASE",
+                      "fontSize": "16px",
+                      "minDynamicHeight": 4
+                    },
+                    {
+                      "resetFormOnClick": false,
+                      "boxShadow": "none",
+                      "widgetName": "Button2",
+                      "onClick": "{{closeModal('Modal1')}}",
+                      "buttonColor": "#a1a1aa",
+                      "displayName": "按钮",
+                      "iconSVG": "/oss_static/static/media/icon.bcfcff89b91027dfd1ce4553f3e8597e.svg",
+                      "searchTags": [
+                        "click",
+                        "submit",
+                        "button"
+                      ],
+                      "topRow": 11,
+                      "bottomRow": 15,
+                      "type": "BUTTON_WIDGET",
+                      "hideCard": false,
+                      "animateLoading": true,
+                      "dynamicTriggerPathList": [
+                        {
+                          "key": "onClick"
+                        }
+                      ],
+                      "leftColumn": 39,
+                      "dynamicBindingPathList": [
+                        {
+                          "key": "borderRadius"
+                        }
+                      ],
+                      "text": "取消",
+                      "isDisabled": false,
+                      "gridConfig": {
+                        "containerGridPadding": 0,
+                        "widgetPadding": 0
+                      },
+                      "key": "78k539jdq2",
+                      "isDeprecated": false,
+                      "rightColumn": 50,
+                      "customStyle": "\n{\nheight:32px !important;\nspan{\ncolor: black !important;\n}\n}",
+                      "isDefaultClickDisabled": true,
+                      "widgetId": "zjyy6r0g8m",
+                      "buttonStyle": "PRIMARY",
+                      "isVisible": true,
+                      "recaptchaType": "V3",
+                      "version": 1,
+                      "parentId": "459v8bod06",
+                      "renderMode": "CANVAS",
+                      "isLoading": false,
+                      "disabledWhenInvalid": false,
+                      "borderRadius": "{{keyu.theme.borderRadius.appBorderRadius}}",
+                      "widgetCategory": "BUTTON",
+                      "buttonVariant": "SECONDARY",
+                      "placement": "CENTER"
+                    },
+                    {
+                      "resetFormOnClick": false,
+                      "boxShadow": "none",
+                      "widgetName": "Button3Copy",
+                      "onClick": "",
+                      "buttonColor": "linear-gradient(244deg, rgba(234, 196, 103, 1), rgba(209, 155, 0, 1))",
+                      "displayName": "按钮",
+                      "iconSVG": "/oss_static/static/media/icon.bcfcff89b91027dfd1ce4553f3e8597e.svg",
+                      "searchTags": [
+                        "click",
+                        "submit",
+                        "button"
+                      ],
+                      "topRow": 11,
+                      "bottomRow": 15,
+                      "type": "BUTTON_WIDGET",
+                      "hideCard": false,
+                      "animateLoading": true,
+                      "dynamicTriggerPathList": [
+                        {
+                          "key": "onClick"
+                        }
+                      ],
+                      "leftColumn": 50,
+                      "dynamicBindingPathList": [
+                        {
+                          "key": "borderRadius"
+                        }
+                      ],
+                      "text": "确定",
+                      "isDisabled": false,
+                      "gridConfig": {
+                        "containerGridPadding": 0,
+                        "widgetPadding": 0
+                      },
+                      "key": "78k539jdq2",
+                      "isDeprecated": false,
+                      "rightColumn": 61,
+                      "customStyle": "\n{\nheight:32px !important;\nspan{\ncolor: #FFFFFF !important;\n}\n}",
+                      "isDefaultClickDisabled": true,
+                      "widgetId": "kdd67prnam",
+                      "buttonStyle": "PRIMARY_BUTTON",
+                      "isVisible": true,
+                      "recaptchaType": "V3",
+                      "version": 1,
+                      "parentId": "459v8bod06",
+                      "renderMode": "CANVAS",
+                      "isLoading": false,
+                      "disabledWhenInvalid": false,
+                      "borderRadius": "{{keyu.theme.borderRadius.appBorderRadius}}",
+                      "widgetCategory": "BUTTON",
+                      "buttonVariant": "PRIMARY",
+                      "iconAlign": "right",
+                      "placement": "CENTER"
+                    },
+                    {
+                      "widgetName": "Text7Copy",
+                      "dynamicPropertyPathList": [
+                        {
+                          "key": "fontSize"
+                        }
+                      ],
+                      "displayName": "文本",
+                      "iconSVG": "/oss_static/static/media/icon.62f720b3756e1a738b3b9a254761748f.svg",
+                      "searchTags": [
+                        "typography",
+                        "paragraph",
+                        "label",
+                        "text"
+                      ],
+                      "topRow": 6,
+                      "bottomRow": 10,
+                      "parentRowSpace": 10,
+                      "type": "TEXT_WIDGET",
+                      "hideCard": false,
+                      "animateLoading": true,
+                      "overflow": "NONE",
+                      "fontFamily": "{{keyu.theme.fontFamily.appFont}}",
+                      "parentColumnSpace": 8.6875,
+                      "dynamicTriggerPathList": [],
+                      "leftColumn": 10,
+                      "dynamicBindingPathList": [
+                        {
+                          "key": "fontFamily"
+                        },
+                        {
+                          "key": "borderRadius"
+                        }
+                      ],
+                      "shouldTruncate": false,
+                      "truncateButtonColor": "#FFC13D",
+                      "text": "若不保存，本次做过的编辑将会丢失",
+                      "gridConfig": {
+                        "containerGridPadding": 0,
+                        "widgetPadding": 0
+                      },
+                      "key": "m1rj9td52b",
+                      "isDeprecated": false,
+                      "rightColumn": 63,
+                      "textAlign": "LEFT",
+                      "dynamicHeight": "FIXED",
+                      "widgetId": "br8w19dxnx",
+                      "isVisible": true,
+                      "fontStyle": "",
+                      "textColor": "#7F7F85",
+                      "version": 1,
+                      "parentId": "459v8bod06",
+                      "renderMode": "CANVAS",
+                      "isLoading": false,
+                      "borderRadius": "{{keyu.theme.borderRadius.appBorderRadius}}",
+                      "maxDynamicHeight": 9000,
+                      "widgetCategory": "BASE",
+                      "fontSize": "14px",
+                      "minDynamicHeight": 4
+                    },
+                    {
+                      "boxShadow": "none",
+                      "widgetName": "IconButton1Copy4",
+                      "buttonColor": "linear-gradient(244deg, rgba(234, 196, 103, 1), rgba(209, 155, 0, 1))",
+                      "dynamicPropertyPathList": [
+                        {
+                          "key": "buttonColor"
+                        }
+                      ],
+                      "displayName": "图标按钮",
+                      "iconSVG": "/bty/oss_static/static/media/icon.3fe344e4f1afb089312b9067330b828b.svg",
+                      "searchTags": [
+                        "click",
+                        "submit",
+                        "button",
+                        "icon button"
+                      ],
+                      "topRow": 2,
+                      "bottomRow": 6,
+                      "parentRowSpace": 10,
+                      "type": "ICON_BUTTON_WIDGET",
+                      "hideCard": false,
+                      "animateLoading": true,
+                      "parentColumnSpace": 7.6875,
+                      "dynamicTriggerPathList": [],
+                      "leftColumn": 4,
+                      "dynamicBindingPathList": [],
+                      "isDisabled": false,
+                      "gridConfig": {
+                        "containerGridPadding": 0,
+                        "widgetPadding": 0
+                      },
+                      "key": "3m5xed4tne",
+                      "isDeprecated": false,
+                      "rightColumn": 8,
+                      "iconName": "error",
+                      "widgetId": "acrq6pd6nk",
+                      "isVisible": true,
+                      "version": 1,
+                      "parentId": "459v8bod06",
+                      "renderMode": "CANVAS",
+                      "isLoading": false,
+                      "borderRadius": "1.5rem",
+                      "widgetCategory": "BUTTON",
+                      "buttonVariant": "PRIMARY"
+                    }
+                  ],
+                  "isDisabled": false,
+                  "gridConfig": {
+                    "containerGridPadding": 0,
+                    "widgetPadding": 0
+                  },
+                  "key": "sbl4x9qzfr",
+                  "isDeprecated": false,
+                  "rightColumn": 410.87109375,
+                  "detachFromLayout": true,
+                  "widgetId": "459v8bod06",
+                  "accentColor": "{{keyu.theme.colors.primaryColor}}",
+                  "isVisible": true,
+                  "version": 1,
+                  "parentId": "yt3818bxrv",
+                  "renderMode": "CANVAS",
+                  "isLoading": false,
+                  "borderRadius": "{{keyu.theme.borderRadius.appBorderRadius}}"
+                }
+              ],
+              "gridConfig": {
+                "containerGridPadding": 0,
+                "widgetPadding": 0
+              },
+              "key": "zd1iq3gvoa",
+              "height": 178,
+              "isDeprecated": false,
+              "rightColumn": 44,
+              "detachFromLayout": true,
+              "dynamicHeight": "FIXED",
+              "widgetId": "yt3818bxrv",
+              "canOutsideClickClose": true,
+              "canEscapeKeyClose": true,
+              "version": 2,
+              "parentId": "0",
+              "renderMode": "CANVAS",
+              "isLoading": false,
+              "borderRadius": "{{keyu.theme.borderRadius.appBorderRadius}}",
+              "maxDynamicHeight": 9000,
+              "widgetCategory": "LAYOUT",
+              "width": 492,
+              "minDynamicHeight": 24
+            },
+            {
+              "boxShadow": "{{keyu.theme.boxShadow.appBoxShadow}}",
+              "widgetName": "ContainerAdd",
+              "borderColor": "transparent",
+              "isCanvas": true,
+              "displayName": "容器",
+              "iconSVG": "/bty/oss_static/static/media/icon.1fb5544f88b00e91fc54ef9dd1d0c398.svg",
+              "searchTags": [
+                "div",
+                "parent",
+                "group",
+                "container",
+                "canvas"
+              ],
+              "topRow": 5,
+              "bottomRow": 48,
+              "parentRowSpace": 10,
+              "floatZIndex": 6,
+              "type": "CONTAINER_WIDGET",
+              "hideCard": false,
+              "shouldScrollContents": false,
+              "animateLoading": true,
+              "parentColumnSpace": 16.0625,
+              "dynamicTriggerPathList": [],
+              "leftColumn": 2,
+              "dynamicBindingPathList": [
+                {
+                  "key": "borderRadius"
+                },
+                {
+                  "key": "boxShadow"
+                }
+              ],
+              "children": [
+                {
+                  "boxShadow": "none",
+                  "widgetName": "Canvas1",
+                  "displayName": "Canvas",
+                  "topRow": 0,
+                  "bottomRow": 430,
+                  "parentRowSpace": 1,
+                  "type": "CANVAS_WIDGET",
+                  "canExtend": false,
+                  "hideCard": true,
+                  "minHeight": 430,
+                  "parentColumnSpace": 1,
+                  "leftColumn": 0,
+                  "dynamicBindingPathList": [
+                    {
+                      "key": "borderRadius"
+                    },
+                    {
+                      "key": "accentColor"
+                    }
+                  ],
+                  "children": [
+                    {
+                      "boxShadow": "none",
+                      "dateFormat": "YYYY-MM-DD",
+                      "iconSVG": "/oss_static/static/media/icon.2875895e6e8bca14211c6990a35cfa05.svg",
+                      "requiredMarkPlacement": "right",
+                      "topRow": 33,
+                      "labelWidth": 5,
+                      "type": "DATE_PICKER_WIDGET2",
+                      "animateLoading": true,
+                      "leftColumn": 2,
+                      "dynamicBindingPathList": [
+                        {
+                          "key": "accentColor"
+                        },
+                        {
+                          "key": "defaultDate"
+                        },
+                        {
+                          "key": "isDisabled"
+                        }
+                      ],
+                      "isDisabled": "{{ContractPeriod.selectedOptionValue!=4}}",
+                      "isRequired": true,
+                      "accentColor": "{{keyu.theme.colors.primaryColor}}",
+                      "isVisible": true,
+                      "datePickerType": "DATE_PICKER",
+                      "version": 2,
+                      "isLoading": false,
+                      "timePrecision": "None",
+                      "borderRadius": "8px",
+                      "originalBottomRow": 27,
+                      "closeOnSelection": true,
+                      "widgetName": "EndTime",
+                      "minDate": "1920-12-31T18:30:00.000Z",
+                      "dynamicPropertyPathList": [
+                        {
+                          "key": "dateFormat"
+                        },
+                        {
+                          "key": "defaultDate"
+                        },
+                        {
+                          "key": "isDisabled"
+                        },
+                        {
+                          "key": "borderRadius"
+                        }
+                      ],
+                      "displayName": "时间选择器",
+                      "searchTags": [
+                        "calendar",
+                        "date",
+                        "date picker"
+                      ],
+                      "bottomRow": 39,
+                      "shortcuts": false,
+                      "parentRowSpace": 10,
+                      "hideCard": false,
+                      "parentColumnSpace": 16.52596435546875,
+                      "dynamicTriggerPathList": [],
+                      "labelPosition": "Top",
+                      "gridConfig": {
+                        "containerGridPadding": 0,
+                        "widgetPadding": 0
+                      },
+                      "key": "m9pglsfaql",
+                      "labelTextSize": "0.875rem",
+                      "isDeprecated": false,
+                      "rightColumn": 26,
+                      "defaultDate": "{{keyu.store.nowDate}}",
+                      "widgetId": "r1ndbr2z9v",
+                      "label": "合同结束日期",
+                      "parentId": "w3uo1r9t3v",
+                      "labelAlignment": "left",
+                      "renderMode": "CANVAS",
+                      "originalTopRow": 21,
+                      "widgetCategory": "SELECT",
+                      "firstDayOfWeek": 0,
+                      "maxDate": "2121-12-31T18:29:00.000Z"
+                    },
+                    {
+                      "boxShadow": "none",
+                      "dateFormat": "YYYY-MM-DD",
+                      "iconSVG": "/oss_static/static/media/icon.2875895e6e8bca14211c6990a35cfa05.svg",
+                      "requiredMarkPlacement": "right",
+                      "topRow": 26,
+                      "labelWidth": 5,
+                      "type": "DATE_PICKER_WIDGET2",
+                      "animateLoading": true,
+                      "leftColumn": 28,
+                      "dynamicBindingPathList": [
+                        {
+                          "key": "accentColor"
+                        }
+                      ],
+                      "isDisabled": false,
+                      "onDateSelected": "{{actions.selectPeriod()}}",
+                      "isRequired": true,
+                      "accentColor": "{{keyu.theme.colors.primaryColor}}",
+                      "isVisible": true,
+                      "datePickerType": "DATE_PICKER",
+                      "version": 2,
+                      "isLoading": false,
+                      "timePrecision": "None",
+                      "borderRadius": "8px",
+                      "originalBottomRow": 27,
+                      "closeOnSelection": true,
+                      "widgetName": "StartTime",
+                      "minDate": "1920-12-31T18:30:00.000Z",
+                      "dynamicPropertyPathList": [
+                        {
+                          "key": "dateFormat"
+                        },
+                        {
+                          "key": "defaultDate"
+                        },
+                        {
+                          "key": "borderRadius"
+                        }
+                      ],
+                      "displayName": "时间选择器",
+                      "searchTags": [
+                        "calendar",
+                        "date",
+                        "date picker"
+                      ],
+                      "bottomRow": 32,
+                      "shortcuts": false,
+                      "parentRowSpace": 10,
+                      "hideCard": false,
+                      "parentColumnSpace": 16.52596435546875,
+                      "dynamicTriggerPathList": [
+                        {
+                          "key": "onDateSelected"
+                        }
+                      ],
+                      "labelPosition": "Top",
+                      "gridConfig": {
+                        "containerGridPadding": 0,
+                        "widgetPadding": 0
+                      },
+                      "key": "m9pglsfaql",
+                      "labelTextSize": "0.875rem",
+                      "defaultDate": "",
+                      "isDeprecated": false,
+                      "rightColumn": 52,
+                      "widgetId": "2851y6ljvs",
+                      "label": "合同起始日期",
+                      "parentId": "w3uo1r9t3v",
+                      "labelAlignment": "left",
+                      "renderMode": "CANVAS",
+                      "originalTopRow": 21,
+                      "widgetCategory": "SELECT",
+                      "firstDayOfWeek": 0,
+                      "maxDate": "2121-12-31T18:29:00.000Z"
+                    },
+                    {
+                      "boxShadow": "none",
+                      "widgetName": "ContractPeriod",
+                      "isFilterable": false,
+                      "dynamicPropertyPathList": [
+                        {
+                          "key": "borderRadius"
+                        }
+                      ],
+                      "displayName": "单选下拉框",
+                      "iconSVG": "/oss_static/static/media/icon.83b132ab7fbd354f21b3d43c0517ddb4.svg",
+                      "requiredMarkPlacement": "right",
+                      "labelText": "合同期限",
+                      "searchTags": [
+                        "dropdown",
+                        "select"
+                      ],
+                      "topRow": 26,
+                      "bottomRow": 32,
+                      "parentRowSpace": 10,
+                      "labelWidth": 5,
+                      "type": "SELECT_WIDGET",
+                      "serverSideFiltering": false,
+                      "hideCard": false,
+                      "defaultOptionValue": "",
+                      "animateLoading": true,
+                      "parentColumnSpace": 13.904296875,
+                      "dynamicTriggerPathList": [
+                        {
+                          "key": "onOptionChange"
+                        }
+                      ],
+                      "leftColumn": 2,
+                      "dynamicBindingPathList": [
+                        {
+                          "key": "accentColor"
+                        },
+                        {
+                          "key": "customStyle"
+                        }
+                      ],
+                      "labelPosition": "Top",
+                      "options": "[\n  {\n    \"label\": \"固定期限-1年\",\n    \"value\": \"0\"\n  },\n  {\n    \"label\": \"固定期限-3年\",\n    \"value\": \"1\"\n  },\n  {\n    \"label\": \"固定期限-5年\",\n    \"value\": \"2\"\n  },\n  {\n    \"label\": \"无固定期限\",\n    \"value\": \"3\"\n  },\n  {\n    \"label\": \"无限制\",\n    \"value\": \"4\"\n  }\n]",
+                      "labelStyle": "",
+                      "placeholderText": "请选择合同期限",
+                      "isDisabled": false,
+                      "gridConfig": {
+                        "containerGridPadding": 0,
+                        "widgetPadding": 0
+                      },
+                      "key": "uwarh8uui3",
+                      "labelTextSize": "0.875rem",
+                      "isRequired": true,
+                      "isDeprecated": false,
+                      "rightColumn": 26,
+                      "customStyle": ".bp3-button-text{\nspan{\ncolor: {{!!ContractPeriod.selectedOptionLabel?'rgb(24, 32, 38)':'#B6B6BA'}} !important;\n}\n}",
+                      "widgetId": "qd493uml7u",
+                      "accentColor": "{{keyu.theme.colors.primaryColor}}",
+                      "isVisible": true,
+                      "version": 1,
+                      "parentId": "w3uo1r9t3v",
+                      "labelAlignment": "left",
+                      "renderMode": "CANVAS",
+                      "isLoading": false,
+                      "borderRadius": "8px",
+                      "widgetCategory": "SELECT",
+                      "onOptionChange": ""
+                    },
+                    {
+                      "boxShadow": "none",
+                      "widgetName": "RenewCount",
+                      "dynamicPropertyPathList": [
+                        {
+                          "key": "borderRadius"
+                        }
+                      ],
+                      "displayName": "输入框",
+                      "iconSVG": "/oss_static/static/media/icon.8745f0bc4bb191bf91ff9c349e02447f.svg",
+                      "requiredMarkPlacement": "right",
+                      "searchTags": [
+                        "form",
+                        "text input",
+                        "number",
+                        "textarea",
+                        "input"
+                      ],
+                      "topRow": 19,
+                      "bottomRow": 25,
+                      "parentRowSpace": 10,
+                      "labelWidth": 5,
+                      "autoFocus": false,
+                      "type": "INPUT_WIDGET_V2",
+                      "maxNum": "99",
+                      "hideCard": false,
+                      "animateLoading": true,
+                      "parentColumnSpace": 16.52596435546875,
+                      "dynamicTriggerPathList": [],
+                      "resetOnSubmit": true,
+                      "leftColumn": 28,
+                      "dynamicBindingPathList": [
+                        {
+                          "key": "accentColor"
+                        }
+                      ],
+                      "labelPosition": "Top",
+                      "labelStyle": "",
+                      "inputType": "NUMBER",
+                      "placeholderText": "",
+                      "isDisabled": false,
+                      "gridConfig": {
+                        "containerGridPadding": 0,
+                        "widgetPadding": 0
+                      },
+                      "key": "776vy19xsu",
+                      "labelTextSize": "0.875rem",
+                      "isRequired": true,
+                      "isDeprecated": false,
+                      "rightColumn": 52,
+                      "widgetId": "718cmnzvmb",
+                      "accentColor": "{{keyu.theme.colors.primaryColor}}",
+                      "isVisible": true,
+                      "label": "合同已续签次数",
+                      "version": 2,
+                      "parentId": "w3uo1r9t3v",
+                      "minNum": "0",
+                      "labelAlignment": "left",
+                      "renderMode": "CANVAS",
+                      "isLoading": false,
+                      "borderRadius": "8px",
+                      "widgetCategory": "INPUT",
+                      "iconAlign": "left",
+                      "defaultText": "0"
+                    },
+                    {
+                      "boxShadow": "none",
+                      "widgetName": "ContractState",
+                      "isFilterable": false,
+                      "dynamicPropertyPathList": [
+                        {
+                          "key": "borderRadius"
+                        }
+                      ],
+                      "displayName": "单选下拉框",
+                      "iconSVG": "/oss_static/static/media/icon.83b132ab7fbd354f21b3d43c0517ddb4.svg",
+                      "requiredMarkPlacement": "right",
+                      "labelText": "合同状态",
+                      "searchTags": [
+                        "dropdown",
+                        "select"
+                      ],
+                      "topRow": 19,
+                      "bottomRow": 25,
+                      "parentRowSpace": 10,
+                      "labelWidth": 5,
+                      "type": "SELECT_WIDGET",
+                      "enableClear": false,
+                      "serverSideFiltering": false,
+                      "hideCard": false,
+                      "defaultOptionValue": "{{ ((options, serverSideFiltering) => ( `1`))(ContractState.options, ContractState.serverSideFiltering) }}",
+                      "animateLoading": true,
+                      "parentColumnSpace": 13.904296875,
+                      "dynamicTriggerPathList": [],
+                      "leftColumn": 2,
+                      "dynamicBindingPathList": [
+                        {
+                          "key": "accentColor"
+                        },
+                        {
+                          "key": "defaultOptionValue"
+                        }
+                      ],
+                      "labelPosition": "Top",
+                      "options": "[\n  {\n    \"label\": \"待签署\",\n    \"value\": \"1\"\n  },\n  {\n    \"label\": \"已签署\",\n    \"value\": \"8\"\n  }\n]",
+                      "labelStyle": "",
+                      "labelTextColor": "",
+                      "placeholderText": "请选择合同状态",
+                      "isDisabled": false,
+                      "gridConfig": {
+                        "containerGridPadding": 0,
+                        "widgetPadding": 0
+                      },
+                      "key": "uwarh8uui3",
+                      "labelTextSize": "0.875rem",
+                      "isRequired": true,
+                      "isDeprecated": false,
+                      "rightColumn": 26,
+                      "widgetId": "c00vgbnmb0",
+                      "accentColor": "{{keyu.theme.colors.primaryColor}}",
+                      "isVisible": true,
+                      "version": 1,
+                      "parentId": "w3uo1r9t3v",
+                      "labelAlignment": "left",
+                      "renderMode": "CANVAS",
+                      "isLoading": false,
+                      "borderRadius": "8px",
+                      "widgetCategory": "SELECT"
+                    },
+                    {
+                      "boxShadow": "none",
+                      "widgetName": "ContractType",
+                      "isFilterable": false,
+                      "dynamicPropertyPathList": [
+                        {
+                          "key": "borderRadius"
+                        }
+                      ],
+                      "displayName": "单选下拉框",
+                      "iconSVG": "/oss_static/static/media/icon.83b132ab7fbd354f21b3d43c0517ddb4.svg",
+                      "requiredMarkPlacement": "right",
+                      "labelText": "合同类型",
+                      "searchTags": [
+                        "dropdown",
+                        "select"
+                      ],
+                      "topRow": 12,
+                      "bottomRow": 18,
+                      "parentRowSpace": 10,
+                      "labelWidth": 5,
+                      "type": "SELECT_WIDGET",
+                      "enableClear": false,
+                      "serverSideFiltering": false,
+                      "hideCard": false,
+                      "defaultOptionValue": "",
+                      "animateLoading": true,
+                      "parentColumnSpace": 13.904296875,
+                      "dynamicTriggerPathList": [
+                        {
+                          "key": "onOptionChange"
+                        }
+                      ],
+                      "leftColumn": 28,
+                      "dynamicBindingPathList": [
+                        {
+                          "key": "accentColor"
+                        }
+                      ],
+                      "labelPosition": "Top",
+                      "options": "[\n  {\n    \"label\": \"劳动合同\",\n    \"value\": \"0\"\n  },\n  {\n    \"label\": \"保密协议\",\n    \"value\": \"1\"\n  },\n  {\n    \"label\": \"竞业协议\",\n    \"value\": \"2\"\n  },\n  {\n    \"label\": \"员工手册\",\n    \"value\": \"3\"\n  },\n  {\n    \"label\": \"离职协议\",\n    \"value\": \"4\"\n  },\n    {\n    \"label\": \"转岗协议\",\n    \"value\": \"5\"\n  },\n  {\n    \"label\": \"续签合同\",\n    \"value\": \"6\"\n  },\n  {\n    \"label\": \"返聘协议\",\n    \"value\": \"7\"\n  },\n  {\n    \"label\": \"劳务合同\",\n    \"value\": \"8\"\n  },\n      {\n    \"label\": \"实习协议\",\n    \"value\": \"9\"\n  },\n  {\n    \"label\": \"外包协议\",\n    \"value\": \"10\"\n  },\n  {\n    \"label\": \"兼职协议\",\n    \"value\": \"11\"\n  },\n  {\n    \"label\": \"其他\",\n    \"value\": \"12\"\n  }\n]",
+                      "labelStyle": "",
+                      "placeholderText": "请选择合同类型",
+                      "isDisabled": false,
+                      "gridConfig": {
+                        "containerGridPadding": 0,
+                        "widgetPadding": 0
+                      },
+                      "key": "uwarh8uui3",
+                      "labelTextSize": "0.875rem",
+                      "isRequired": true,
+                      "isDeprecated": false,
+                      "rightColumn": 52,
+                      "widgetId": "pvqzc19hxc",
+                      "accentColor": "{{keyu.theme.colors.primaryColor}}",
+                      "isVisible": true,
+                      "version": 1,
+                      "parentId": "w3uo1r9t3v",
+                      "labelAlignment": "left",
+                      "renderMode": "CANVAS",
+                      "isLoading": false,
+                      "borderRadius": "8px",
+                      "widgetCategory": "SELECT",
+                      "onOptionChange": ""
+                    },
+                    {
+                      "boxShadow": "none",
+                      "widgetName": "SelectBody",
+                      "isFilterable": false,
+                      "dynamicPropertyPathList": [
+                        {
+                          "key": "borderRadius"
+                        }
+                      ],
+                      "displayName": "单选下拉框",
+                      "iconSVG": "/oss_static/static/media/icon.83b132ab7fbd354f21b3d43c0517ddb4.svg",
+                      "requiredMarkPlacement": "right",
+                      "labelText": "签约主体",
+                      "searchTags": [
+                        "dropdown",
+                        "select"
+                      ],
+                      "topRow": 12,
+                      "bottomRow": 18,
+                      "parentRowSpace": 10,
+                      "labelWidth": 5,
+                      "type": "SELECT_WIDGET",
+                      "serverSideFiltering": false,
+                      "hideCard": false,
+                      "defaultOptionValue": "",
+                      "animateLoading": true,
+                      "parentColumnSpace": 13.904296875,
+                      "dynamicTriggerPathList": [],
+                      "leftColumn": 2,
+                      "dynamicBindingPathList": [
+                        {
+                          "key": "accentColor"
+                        },
+                        {
+                          "key": "options"
+                        },
+                        {
+                          "key": "customStyle"
+                        }
+                      ],
+                      "labelPosition": "Top",
+                      "options": "{{keyu.store.bodyData.filter(i=>i.status=='normal')}}",
+                      "labelStyle": "",
+                      "placeholderText": "请选择签约主体",
+                      "isDisabled": false,
+                      "gridConfig": {
+                        "containerGridPadding": 0,
+                        "widgetPadding": 0
+                      },
+                      "key": "uwarh8uui3",
+                      "labelTextSize": "0.875rem",
+                      "isRequired": true,
+                      "isDeprecated": false,
+                      "rightColumn": 26,
+                      "customStyle": ".bp3-button-text{\nspan{\ncolor: {{!!SelectBody.selectedOptionLabel?'rgb(24, 32, 38)':'#B6B6BA'}} !important;\n}\n}",
+                      "widgetId": "h257avri19",
+                      "accentColor": "{{keyu.theme.colors.primaryColor}}",
+                      "isVisible": true,
+                      "version": 1,
+                      "parentId": "w3uo1r9t3v",
+                      "labelAlignment": "left",
+                      "renderMode": "CANVAS",
+                      "isLoading": false,
+                      "borderRadius": "8px",
+                      "widgetCategory": "SELECT"
+                    },
+                    {
+                      "boxShadow": "none",
+                      "widgetName": "Custom1",
+                      "code": "    <style>\nhtml {\n\toverflow:hidden\n}\n        .container {\n            display: flex;\n            align-items: center;\n        }\n\n        .left {\n            height: 15px;\n            border-left: 3px solid #0050DE;\n            width: 6.5px;\n        }\n\n        .right {\n            font-family: PingFang SC;\n            font-size: 14px;\n            font-weight: 600;\n            letter-spacing: 0em;\n            color: #16181B;\n        }\n    </style>\n    <div class=\"container\">\n        <div class=\"left\"></div>\n        <div class=\"right\">合同信息</div>\n    </div>",
+                      "codeType": "react",
+                      "isCanvas": false,
+                      "displayName": "自定义组件",
+                      "iconSVG": "/oss_static/static/media/icon.99d4595efd422baf1b3479cf7e9d9a13.svg",
+                      "searchTags": [
+                        "custom",
+                        "custom component",
+                        "自定义",
+                        "自定义组件"
+                      ],
+                      "topRow": 7,
+                      "bottomRow": 11,
+                      "parentRowSpace": 10,
+                      "type": "CUSTOM_WIDGET",
+                      "hideCard": false,
+                      "parentColumnSpace": 17.671875,
+                      "dynamicTriggerPathList": [],
+                      "leftColumn": 1,
+                      "dynamicBindingPathList": [
+                        {
+                          "key": "borderRadius"
+                        },
+                        {
+                          "key": "accentColor"
+                        }
+                      ],
+                      "model": {
+                        "text": "hello world",
+                        "updateData": "saveContract.update",
+                        "callback": "saveContract.callback"
+                      },
+                      "gridConfig": {
+                        "containerGridPadding": 0,
+                        "widgetPadding": 0
+                      },
+                      "key": "9hi9qao3kf",
+                      "isDeprecated": false,
+                      "rightColumn": 8,
+                      "widgetId": "73cooo46bq",
+                      "accentColor": "{{keyu.theme.colors.primaryColor}}",
+                      "isVisible": true,
+                      "version": 1,
+                      "parentId": "w3uo1r9t3v",
+                      "renderMode": "CANVAS",
+                      "isLoading": false,
+                      "borderRadius": "{{keyu.theme.borderRadius.appBorderRadius}}",
+                      "widgetCategory": "CUSTOM"
+                    },
+                    {
+                      "widgetName": "Text1",
+                      "displayName": "文本",
+                      "iconSVG": "/bty/oss_static/static/media/icon.b4d76cb5a7f363bdb65fc6af739d9da7.svg",
+                      "searchTags": [
+                        "typography",
+                        "paragraph",
+                        "label",
+                        "text"
+                      ],
+                      "topRow": 0,
+                      "bottomRow": 4,
+                      "parentRowSpace": 10,
+                      "floatZIndex": 6,
+                      "type": "TEXT_WIDGET",
+                      "hideCard": false,
+                      "animateLoading": true,
+                      "overflow": "NONE",
+                      "fontFamily": "{{keyu.theme.fontFamily.appFont}}",
+                      "parentColumnSpace": 14.74609375,
+                      "dynamicTriggerPathList": [],
+                      "leftColumn": 1,
+                      "dynamicBindingPathList": [
+                        {
+                          "key": "fontFamily"
+                        },
+                        {
+                          "key": "borderRadius"
+                        }
+                      ],
+                      "shouldTruncate": false,
+                      "truncateButtonColor": "#FFC13D",
+                      "text": "添加合同记录",
+                      "gridConfig": {
+                        "containerGridPadding": 6,
+                        "widgetPadding": 4
+                      },
+                      "key": "84h4386qht",
+                      "isDeprecated": false,
+                      "rightColumn": 17,
+                      "textAlign": "LEFT",
+                      "dynamicHeight": "FIXED",
+                      "widgetId": "y4jcidqa20",
+                      "isFloat": false,
+                      "isVisible": true,
+                      "fontStyle": "BOLD",
+                      "textColor": "#231F20",
+                      "version": 1,
+                      "parentId": "w3uo1r9t3v",
+                      "renderMode": "CANVAS",
+                      "isLoading": false,
+                      "borderRadius": "{{keyu.theme.borderRadius.appBorderRadius}}",
+                      "maxDynamicHeight": 9000,
+                      "widgetCategory": "BASE",
+                      "fontSize": "1rem",
+                      "treeIconSVG": "/bty/oss_static/static/media/icon-tree.f3a5a1754c5aa9185ecb97a1cb5f6ceb.svg",
+                      "minDynamicHeight": 4
+                    },
+                    {
+                      "boxShadow": "none",
+                      "widgetName": "Divider1",
+                      "thickness": "1",
+                      "displayName": "分隔线",
+                      "iconSVG": "/bty/oss_static/static/media/icon.fde69531311037e496ac5e7fbb1ba9e0.svg",
+                      "searchTags": [
+                        "line",
+                        "devider"
+                      ],
+                      "totalPropConfigEmit": [
+                        "version"
+                      ],
+                      "topRow": 4,
+                      "bottomRow": 5,
+                      "parentRowSpace": 10,
+                      "floatZIndex": 6,
+                      "type": "DIVIDER_WIDGET",
+                      "capType": "nc",
+                      "hideCard": false,
+                      "animateLoading": true,
+                      "parentColumnSpace": 14.74609375,
+                      "dynamicTriggerPathList": [],
+                      "leftColumn": 0,
+                      "dynamicBindingPathList": [
+                        {
+                          "key": "borderRadius"
+                        },
+                        {
+                          "key": "accentColor"
+                        }
+                      ],
+                      "gridConfig": {
+                        "containerGridPadding": 6,
+                        "widgetPadding": 4
+                      },
+                      "key": "psrx3w7fdb",
+                      "dividerColor": "#EBEBEB",
+                      "orientation": "horizontal",
+                      "strokeStyle": "solid",
+                      "isDeprecated": false,
+                      "rightColumn": 64,
+                      "widgetId": "httoccysan",
+                      "accentColor": "{{keyu.theme.colors.primaryColor}}",
+                      "capSide": 0,
+                      "isFloat": false,
+                      "isVisible": true,
+                      "version": 1,
+                      "parentId": "w3uo1r9t3v",
+                      "renderMode": "CANVAS",
+                      "isLoading": false,
+                      "borderRadius": "{{keyu.theme.borderRadius.appBorderRadius}}",
+                      "widgetCategory": "LAYOUT",
+                      "treeIconSVG": "/bty/oss_static/static/media/icon-tree.1cb4b4a1eade79aabf57780f74171dbb.svg"
+                    },
+                    {
+                      "resetFormOnClick": false,
+                      "boxShadow": "none",
+                      "widgetName": "Button1",
+                      "onClick": "{{showModal('Modal1')}}",
+                      "buttonColor": "#a1a1aa",
+                      "displayName": "按钮",
+                      "iconSVG": "/bty/oss_static/static/media/icon.d1cf02de6f669533fbf52e15d5b6e591.svg",
+                      "searchTags": [
+                        "click",
+                        "submit",
+                        "button"
+                      ],
+                      "topRow": 37,
+                      "bottomRow": 41,
+                      "parentRowSpace": 10,
+                      "floatZIndex": 6,
+                      "type": "BUTTON_WIDGET",
+                      "hideCard": false,
+                      "animateLoading": true,
+                      "parentColumnSpace": 16.0625,
+                      "dynamicTriggerPathList": [
+                        {
+                          "key": "onClick"
+                        }
+                      ],
+                      "leftColumn": 52,
+                      "dynamicBindingPathList": [
+                        {
+                          "key": "borderRadius"
+                        }
+                      ],
+                      "text": "取消",
+                      "isDisabled": false,
+                      "gridConfig": {
+                        "containerGridPadding": 6,
+                        "widgetPadding": 4
+                      },
+                      "key": "7d1ih0vbc6",
+                      "isDeprecated": false,
+                      "rightColumn": 58,
+                      "customStyle": "\n{\nheight:32px !important;\nspan{\ncolor: black !important;\n}\n}",
+                      "isDefaultClickDisabled": true,
+                      "widgetId": "qdli1ylech",
+                      "isFloat": false,
+                      "isVisible": true,
+                      "recaptchaType": "V3",
+                      "version": 1,
+                      "parentId": "w3uo1r9t3v",
+                      "renderMode": "CANVAS",
+                      "isLoading": false,
+                      "disabledWhenInvalid": false,
+                      "borderRadius": "{{keyu.theme.borderRadius.appBorderRadius}}",
+                      "widgetCategory": "BUTTON",
+                      "buttonVariant": "SECONDARY",
+                      "placement": "CENTER",
+                      "treeIconSVG": "/bty/oss_static/static/media/icon-tree.60dce56d3700b2aac5a24c47a5feb3b1.svg"
+                    },
+                    {
+                      "resetFormOnClick": false,
+                      "boxShadow": "none",
+                      "widgetName": "Button1Copy",
+                      "buttonColor": "linear-gradient(244deg, rgba(234, 196, 103, 1), rgba(209, 155, 0, 1))",
+                      "dynamicPropertyPathList": [
+                        {
+                          "key": "buttonColor"
+                        }
+                      ],
+                      "displayName": "按钮",
+                      "iconSVG": "/bty/oss_static/static/media/icon.d1cf02de6f669533fbf52e15d5b6e591.svg",
+                      "searchTags": [
+                        "click",
+                        "submit",
+                        "button"
+                      ],
+                      "topRow": 37,
+                      "bottomRow": 41,
+                      "parentRowSpace": 10,
+                      "floatZIndex": 6,
+                      "type": "BUTTON_WIDGET",
+                      "hideCard": false,
+                      "animateLoading": true,
+                      "parentColumnSpace": 16.0625,
+                      "dynamicTriggerPathList": [],
+                      "leftColumn": 58,
+                      "dynamicBindingPathList": [
+                        {
+                          "key": "borderRadius"
+                        }
+                      ],
+                      "text": "保存",
+                      "isDisabled": false,
+                      "gridConfig": {
+                        "containerGridPadding": 6,
+                        "widgetPadding": 4
+                      },
+                      "key": "7d1ih0vbc6",
+                      "isDeprecated": false,
+                      "rightColumn": 64,
+                      "customStyle": "\n{\nheight:32px !important;\nspan{\ncolor: #FFFFFF !important;\n}\n}",
+                      "isDefaultClickDisabled": true,
+                      "widgetId": "ykbpw03j8v",
+                      "isFloat": false,
+                      "isVisible": true,
+                      "recaptchaType": "V3",
+                      "version": 1,
+                      "parentId": "w3uo1r9t3v",
+                      "renderMode": "CANVAS",
+                      "isLoading": false,
+                      "disabledWhenInvalid": false,
+                      "borderRadius": "{{keyu.theme.borderRadius.appBorderRadius}}",
+                      "widgetCategory": "BUTTON",
+                      "buttonVariant": "PRIMARY",
+                      "placement": "CENTER",
+                      "treeIconSVG": "/bty/oss_static/static/media/icon-tree.60dce56d3700b2aac5a24c47a5feb3b1.svg"
+                    }
+                  ],
+                  "gridConfig": {
+                    "containerGridPadding": 6,
+                    "widgetPadding": 4
+                  },
+                  "key": "0889gcvm60",
+                  "isDeprecated": false,
+                  "rightColumn": 385.5,
+                  "detachFromLayout": true,
+                  "widgetId": "w3uo1r9t3v",
+                  "accentColor": "{{keyu.theme.colors.primaryColor}}",
+                  "containerStyle": "none",
+                  "isVisible": true,
+                  "version": 1,
+                  "parentId": "ui5qafmi39",
+                  "renderMode": "CANVAS",
+                  "isLoading": false,
+                  "borderRadius": "{{keyu.theme.borderRadius.appBorderRadius}}"
+                }
+              ],
+              "borderWidth": "0",
+              "gridConfig": {
+                "containerGridPadding": 6,
+                "widgetPadding": 4
+              },
+              "key": "pxfk2ywqjz",
+              "backgroundColor": "#FFFFFF",
+              "isDeprecated": false,
+              "rightColumn": 62,
+              "dynamicHeight": "FIXED",
+              "widgetId": "ui5qafmi39",
+              "containerStyle": "card",
+              "isFloat": false,
+              "isVisible": true,
+              "version": 1,
+              "parentId": "0",
+              "renderMode": "CANVAS",
+              "isLoading": false,
+              "borderRadius": "{{keyu.theme.borderRadius.appBorderRadius}}",
+              "maxDynamicHeight": 9000,
+              "widgetCategory": "LAYOUT",
+              "treeIconSVG": "/bty/oss_static/static/media/icon-tree.0b06d4fc28e880c67f5f59380c23bc9e.svg",
+              "minDynamicHeight": 10
+            }
+          ]
+        },
+        "layoutOnLoadActions": [],
+        "validOnPageLoadActions": true,
+        "id": "添加合同记录",
+        "deleted": false,
+        "policies": [],
+        "userPermissions": []
+      }
+    ],
+    "userPermissions": [],
+    "policies": [],
+    "isHidden": false
+  },
+  "deleted": false,
+  "gitSyncId": "6444de81c10e3f48638155c9_6459fc6b6495155e2d64841d"
+}

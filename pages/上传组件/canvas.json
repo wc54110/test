@@ -1,0 +1,96 @@
+{
+  "unpublishedPage": {
+    "name": "上传组件",
+    "slug": "",
+    "layouts": [
+      {
+        "viewMode": false,
+        "dsl": {
+          "widgetName": "MainContainer",
+          "backgroundColor": "none",
+          "rightColumn": 1224,
+          "snapColumns": 64,
+          "detachFromLayout": true,
+          "widgetId": "0",
+          "topRow": 0,
+          "bottomRow": 780,
+          "containerStyle": "none",
+          "snapRows": 78,
+          "parentRowSpace": 1,
+          "type": "CANVAS_WIDGET",
+          "canExtend": true,
+          "version": 60,
+          "minHeight": 790,
+          "parentColumnSpace": 1,
+          "dynamicBindingPathList": [],
+          "leftColumn": 0,
+          "children": [
+            {
+              "boxShadow": "none",
+              "widgetName": "Custom1Copy",
+              "code": "    <style>\nhtml{\n\toverflow-y:hidden;\n}\n        .container {\n            display: flex;\n            align-items: center;\n        }\n\n        .left {\n            height: 16px;\n            border-left: 2px solid #2E77EE;\n            width: 4.5px;\n        }\n\n        .right {\n            font-family: PingFang SC;\n            font-size: 14px;\n            font-weight: 600;\n            letter-spacing: 0em;\n            color: #16181B;\n        }\n    </style>\n    <div class=\"container\">\n        <div class=\"left\"></div>\n        <div class=\"right\">合同信息</div>\n    </div>",
+              "codeType": "react",
+              "isCanvas": false,
+              "displayName": "自定义组件",
+              "iconSVG": "/oss_static/static/media/icon.99d4595efd422baf1b3479cf7e9d9a13.svg",
+              "searchTags": [
+                "custom",
+                "custom component",
+                "自定义",
+                "自定义组件"
+              ],
+              "topRow": 12,
+              "bottomRow": 18,
+              "parentRowSpace": 10,
+              "type": "CUSTOM_WIDGET",
+              "hideCard": false,
+              "parentColumnSpace": 17.671875,
+              "dynamicTriggerPathList": [],
+              "leftColumn": 20,
+              "dynamicBindingPathList": [
+                {
+                  "key": "borderRadius"
+                },
+                {
+                  "key": "accentColor"
+                }
+              ],
+              "model": {
+                "text": "hello world",
+                "updateData": "saveContract.update",
+                "callback": "saveContract.callback"
+              },
+              "gridConfig": {
+                "containerGridPadding": 0,
+                "widgetPadding": 0
+              },
+              "key": "9hi9qao3kf",
+              "isDeprecated": false,
+              "rightColumn": 34,
+              "widgetId": "tlaeactjl3",
+              "accentColor": "{{keyu.theme.colors.primaryColor}}",
+              "isVisible": true,
+              "version": 1,
+              "parentId": "0",
+              "renderMode": "CANVAS",
+              "isLoading": false,
+              "borderRadius": "{{keyu.theme.borderRadius.appBorderRadius}}",
+              "widgetCategory": "CUSTOM"
+            }
+          ]
+        },
+        "layoutOnLoadActions": [],
+        "validOnPageLoadActions": true,
+        "id": "上传组件",
+        "deleted": false,
+        "policies": [],
+        "userPermissions": []
+      }
+    ],
+    "userPermissions": [],
+    "policies": [],
+    "isHidden": false
+  },
+  "deleted": false,
+  "gitSyncId": "6444de81c10e3f48638155c9_645c98724a70c67d71c9b476"
+}
