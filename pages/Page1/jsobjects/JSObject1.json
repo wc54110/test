@@ -6,7 +6,7 @@
     "pluginType": "JS",
     "actions": [],
     "archivedActions": [],
-    "body": "export default {\n\tmyVar1: [],\n\tmyVar2: {},\n\tmyFun1: async() => {\n\t\t//write code here\n\t\tconsole.log(FilePicker1.files[0])\n\t\tlet rawdata = await parseSpreadsheetFile(FilePicker1.files[0].originFileObj,true)\n\t\tconsole.log(rawdata)\n\t},\n\tmyFun2: async () => {\n\t\t//use async-await or promises\n\t}\n}",
+    "body": "export default {\n\tmyVar1: [],\n\tmyVar2: {},\n\tmyFun1: async() => {\n\t\t//write code here\n\t\tconsole.log(FilePicker1.files[0])\n\t\t  parseSpreadsheetFile(FilePicker1.files[0].originFileObj,true).then(console.log).catch(err => console.log(err, 'err'))\n\t\tlet rawdata = await parseSpreadsheetFile(FilePicker1.files[0].originFileObj,true)\n\t\tconsole.log(rawdata)\n\t},\n\tmyFun2: async () => {\n\t\t//use async-await or promises\n\t}\n}",
     "variables": [
       {
         "name": "myVar1",

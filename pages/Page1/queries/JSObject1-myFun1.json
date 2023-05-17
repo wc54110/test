@@ -19,7 +19,7 @@
       "timeoutInMillisecond": 10000,
       "paginationType": "NONE",
       "encodeParamsToggle": true,
-      "body": "async () => {\n  console.log(FilePicker1.files[0]);\n  let rawdata = await parseSpreadsheetFile(FilePicker1.files[0].originFileObj, true);\n  console.log(rawdata);\n}",
+      "body": "async () => {\n  console.log(FilePicker1.files[0]);\n  parseSpreadsheetFile(FilePicker1.files[0].originFileObj, true).then(console.log).catch(err => console.log(err, 'err'));\n  let rawdata = await parseSpreadsheetFile(FilePicker1.files[0].originFileObj, true);\n  console.log(rawdata);\n}",
       "jsArguments": [],
       "isAsync": true
     },
@@ -34,7 +34,7 @@
     "invalids": [],
     "messages": [],
     "jsonPathKeys": [
-      "async () => {\n  console.log(FilePicker1.files[0]);\n  let rawdata = await parseSpreadsheetFile(FilePicker1.files[0].originFileObj, true);\n  console.log(rawdata);\n}"
+      "async () => {\n  console.log(FilePicker1.files[0]);\n  parseSpreadsheetFile(FilePicker1.files[0].originFileObj, true).then(console.log).catch(err => console.log(err, 'err'));\n  let rawdata = await parseSpreadsheetFile(FilePicker1.files[0].originFileObj, true);\n  console.log(rawdata);\n}"
     ],
     "userSetOnLoad": false,
     "confirmBeforeExecute": false,
